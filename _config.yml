@@ -1,0 +1,52 @@
+# Site settings
+title: icyway的博客
+email: 344855948@qq.com
+description: > # this means to ignore newlines until "baseurl:"
+  lalalalala的博客
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: http://icyway.github.io # the base hostname & protocol for your site
+rss_url: /pages/feed.xml
+author: Su Yan11111111
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'category'
+recent_num: 20
+
+# Social account
+twitter:
+weibo: zxb929
+github: icyway
+instagram:
+linkedin:
+
+# avatar and Favicon
+avatar: http://op6l4yc3y.bkt.clouddn.com/timg.jpg
+favicon: http://op6l4yc3y.bkt.clouddn.com/bitbug_favicon.ico
+
+# disqus config
+disqus:
+  shortname: icyway
+
+# google analytics config
+ga:
+  id: UA-98274708-1
+  url: icyway.com
+
+# Build settings
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+highlighter: rouge
+mathjax: disabled
+sass:
+  style: compressed
+
+# Jekyll Plugin
+# https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+source:      _source
+destination: _deploy
