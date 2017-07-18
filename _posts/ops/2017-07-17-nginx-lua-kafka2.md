@@ -106,6 +106,9 @@ lua_package_path "/usr/local/nginx/lualib/kafka/?.lua;;";
 ```
 还有，nginx.conf的error_log 开到info级别，这样lua模块报的错误都可以在error.log中看到，对解决问题很有帮助。
 
+####  lua-resty-kafka
+`cp -rf /tmp/lua-resty-kafka-master/lib/resty /usr/local/nginx/lualib/kafka/`
+
 这样就会向kafka里面打进去一个json字符串。
 
 在kafka那里起一个consumer接收如下：
